@@ -7,19 +7,23 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { HomeComponent } from './components/home/home.component';
+import { ProductsComponent } from './components/products/products.component';
 
 //class decorator  @NgModule , @Component
+//v2 to v19
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
     SidebarComponent,
-    HomeComponent
+    HomeComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
+   
   ],
   providers: [],
   //start

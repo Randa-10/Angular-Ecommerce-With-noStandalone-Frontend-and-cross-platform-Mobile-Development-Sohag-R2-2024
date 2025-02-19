@@ -9,5 +9,13 @@ import { Track } from '../../Models/track';
   styleUrl: './home.component.css',
 })
 export class HomeComponent {
+//prop
+userName:string="Ahmed"
+
+//method
+sayHello(){
+  console.log(`hello ${this.userName}`);
+  
+}
   trackProp: Track = new Track('Frontend', 'sohag', ['js', 'css']);
 }
